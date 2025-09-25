@@ -17,6 +17,7 @@ Lexaryn collects and curates contract snippets, language features, and best prac
 - **Language Feature Documentation**: Comprehensive coverage of Clarity capabilities
 - **Community Contributions**: Open platform for developer knowledge sharing
 - **Search and Discovery**: Easy navigation through categorized content
+- **AI-Powered Code Analysis**: Automated code quality scoring with intelligent suggestions for gas optimization, security patterns, and best practices
 
 ## Getting Started
 
@@ -34,12 +35,39 @@ cd lexaryn
 clarinet check
 ```
 
+## AI Code Analysis System
+
+Our new AI-powered analysis system evaluates submitted code snippets across multiple dimensions:
+
+### Quality Metrics
+- **Gas Efficiency**: Analyzes computational complexity and suggests optimizations
+- **Security Patterns**: Identifies potential vulnerabilities and recommends secure alternatives
+- **Code Clarity**: Evaluates readability, naming conventions, and documentation
+- **Best Practices**: Checks adherence to Clarity development standards
+- **Error Handling**: Validates proper error management and edge case coverage
+
+### Scoring System
+Each snippet receives a comprehensive quality score (0-100) with detailed feedback:
+- 90-100: Exceptional - Production-ready with optimal patterns
+- 80-89: Good - Minor improvements suggested
+- 70-79: Acceptable - Some optimizations needed
+- 60-69: Needs Work - Multiple issues to address
+- Below 60: Requires Significant Revision
+
+### Smart Suggestions
+The AI system provides actionable recommendations:
+- Gas optimization techniques
+- Security vulnerability fixes
+- Code structure improvements
+- Performance enhancement tips
+- Best practice implementations
+
 ## Future Roadmap
 
 We have exciting plans to expand Lexaryn's capabilities. Here are the upcoming features we'll be working on:
 
-### Phase 1: Enhanced Intelligence
-1. **AI-Powered Code Analysis** - Integrate automated code quality scoring and suggestion system for submitted snippets
+### Phase 1: Enhanced Intelligence ✅
+1. **AI-Powered Code Analysis** - ✅ **COMPLETED** - Automated code quality scoring and suggestion system for submitted snippets
 2. **Interactive Code Playground** - Browser-based Clarity code editor with live compilation and testing capabilities
 
 ### Phase 2: Community Engagement  
